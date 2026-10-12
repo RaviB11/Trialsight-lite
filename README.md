@@ -92,7 +92,7 @@ ClinicalTrials.gov API v2
 ## Installation (Windows PowerShell, Python 3.11)
 
 ```powershell
-git clone <your-repo-url>; cd trialsight-lite
+git clone https://github.com/RaviB11/Trialsight-lite.git; cd Trialsight-lite
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt          # pipeline + analysis (no PyArrow required)
