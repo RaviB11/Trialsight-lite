@@ -5,11 +5,6 @@ completed from those that were terminated?** TrialSight Lite answers this retros
 [ClinicalTrials.gov](https://clinicaltrials.gov) API v2 registry metadata, with integrity-checked ingestion,
 documented cohort construction, exploratory statistics, interpretable machine learning and a Streamlit app.
 
-> **Short answer from the verified run (raw run `20261012T020557Z`):** only weakly. The best models reach a
-> test ROC-AUC of about 0.59-0.60 and PR-AUC of about 0.28-0.29 against a 22.4% termination prevalence, with
-> high false-positive rates. Every statistically significant association is small. The results describe
-> historical registry patterns and **must not be used to judge individual trials**.
-
 ## Verified results
 
 All numbers below come from the saved artifacts of one research run; `trialsight check-consistency` verifies
