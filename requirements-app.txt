@@ -1,0 +1,3 @@
+# Streamlit research app (optional). NOTE: streamlit depends on pyarrow.
+-r requirements.txt
+streamlit==1.65.0

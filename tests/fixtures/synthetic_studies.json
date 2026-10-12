@@ -1,0 +1,1628 @@
+{
+ "_note": "SYNTHETIC STRUCTURE-ONLY TEST FIXTURE - NOT REAL TRIALS. See make_fixture.py.",
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990001",
+     "briefTitle": "Synthetic study NCT99990001"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2011-03-15",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2015-06-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2015-06-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2011-03-15",
+     "studyFirstPostDateStruct": {
+      "date": "2011-03-15",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      },
+      {
+       "facility": "Site 1",
+       "city": "City",
+       "country": "Canada"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990002",
+     "briefTitle": "Synthetic study NCT99990002"
+    },
+    "statusModule": {
+     "overallStatus": "TERMINATED",
+     "startDateStruct": {
+      "date": "2012-05",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2013-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2013-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-08-01",
+     "studyFirstPostDateStruct": {
+      "date": "2012-08-01",
+      "type": "ACTUAL"
+     },
+     "whyStopped": "Slow accrual"
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990003",
+     "briefTitle": "Synthetic study NCT99990003"
+    },
+    "statusModule": {
+     "overallStatus": "WITHDRAWN",
+     "startDateStruct": {
+      "date": "2014-01-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2014-02-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2014-02-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2014-01-01",
+     "studyFirstPostDateStruct": {
+      "date": "2014-01-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990004",
+     "briefTitle": "Synthetic study NCT99990004"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "startDateStruct": {
+      "date": "2016-09-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2027-01-01",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2027-01-01",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-01",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 80,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990005",
+     "briefTitle": "Synthetic study NCT99990005"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2010-01-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2010-01-01",
+     "studyFirstPostDateStruct": {
+      "date": "2010-01-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000001",
+       "term": "Example Metabolic Disease"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D000002",
+       "term": "Metabolic Diseases"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990006",
+     "briefTitle": "Synthetic study NCT99990006"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2005-01-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2007-01-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2007-01-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2005-01-01",
+     "studyFirstPostDateStruct": {
+      "date": "2005-01-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990001",
+     "briefTitle": "Synthetic study NCT99990001"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2011-03-15",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2015-06-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2015-06-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2011-03-15",
+     "studyFirstPostDateStruct": {
+      "date": "2011-03-15",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990007",
+     "briefTitle": "Synthetic study NCT99990007"
+    },
+    "statusModule": {
+     "overallStatus": "TERMINATED",
+     "startDateStruct": {
+      "date": "2013-13",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2013-13",
+     "studyFirstPostDateStruct": {
+      "date": "2013-13",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990008",
+     "briefTitle": "Synthetic study NCT99990008"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2013-01-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2013-01-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-01-01",
+     "studyFirstPostDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT123",
+     "briefTitle": "Synthetic study NCT123"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2013-01-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2013-01-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-01-01",
+     "studyFirstPostDateStruct": {
+      "date": "2012-01-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Site 0",
+       "city": "City",
+       "country": "United States"
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT99990009",
+     "briefTitle": "Synthetic study NCT99990009"
+    },
+    "statusModule": {
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2014-04-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2016-04-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2016-04-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2014-04-01",
+     "studyFirstPostDateStruct": {
+      "date": "2014-04-01",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Synthetic Sponsor",
+      "class": "INDUSTRY"
+     },
+     "collaborators": [
+      {
+       "name": "Synthetic Collaborator",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Example condition"
+     ],
+     "keywords": [
+      "example"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A"
+      },
+      {
+       "label": "B"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Drug X"
+      },
+      {
+       "type": "OTHER",
+       "name": "Placebo"
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "m1"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "m2"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion: adults.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "6 Months",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": []
+    }
+   },
+   "derivedSection": {
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000000",
+       "term": "Example Carcinoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      }
+     ],
+     "browseBranches": [
+      {
+       "abbrev": "BC04",
+       "name": "Neoplasms"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  }
+ ]
+}

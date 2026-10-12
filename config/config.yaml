@@ -1,0 +1,70 @@
+# TrialSight Lite configuration.
+# The API query is deliberately BROAD (all statuses) so that cohort exclusions,
+# including outcome-status exclusions, are applied locally and recorded in an
+# attrition table. This lets us measure selection bias instead of hiding it.
+
+api:
+  base_url: "https://clinicaltrials.gov/api/v2"
+  page_size: 1000            # API maximum per page
+  requests_per_minute: 40    # stays under the documented ~50/min guidance
+  timeout_seconds: 60
+  max_retries: 5
+
+query:
+  # Condition text search (the API expands synonyms). Oncology is CONFIRMED
+  # locally against MeSH terms in the derived section; see cohort below.
+  cond: "cancer OR neoplasm"
+  advanced_filter: >-
+    AREA[StudyType]INTERVENTIONAL AND (AREA[Phase]PHASE2 OR AREA[Phase]PHASE3)
+    AND AREA[StartDate]RANGE[2008-01-01,2025-12-31]
+  extra_params: {}
+
+cohort:
+  # Window approach confirmed by project owner 2026-10-12 (docs/TECHNICAL_NOTES.md,
+  # "Decision log"). start_date_min/max define the ELIGIBLE population (all
+  # statuses, kept for survival analysis). The PRIMARY classification cohort is
+  # further limited by resolution_rule, which picks the end year from the data.
+  start_date_min: "2008-01-01"
+  start_date_max: "2025-12-31"
+  resolution_rule:
+    min_resolved_share: 0.90    # resolved / (resolved + unresolved), per start year
+    resolved_statuses: ["COMPLETED", "TERMINATED", "WITHDRAWN"]
+    unresolved_statuses: ["NOT_YET_RECRUITING", "RECRUITING", "ENROLLING_BY_INVITATION",
+                          "ACTIVE_NOT_RECRUITING", "SUSPENDED"]
+    ambiguous_statuses: ["UNKNOWN"]   # excluded from the share; reported as ambiguous_share
+    ambiguous_handling: "exclude"     # unchanged; "count_as_unresolved" is reported in threshold_sensitivity
+    # Robustness settings added 2026-10-12 (fail-closed: can only shrink the window, never widen it).
+    missing_year_policy: "break"      # an empty calendar year ends the window
+    min_studies_per_year: 30          # years with fewer resolvable studies cannot qualify
+  phase_groups: ["PHASE2", "PHASE2_3", "PHASE3"]
+  target_statuses:          # status -> binary target (1 = terminated)
+    COMPLETED: 0
+    TERMINATED: 1
+  require_oncology_mesh: true
+  oncology_mesh_terms: ["Neoplasms"]
+
+diagnostics:
+  thresholds: [0.80, 0.85, 0.90, 0.95]
+  review_sample_size: 200
+  profile_columns: ["phase_group", "lead_sponsor_class", "allocation", "primary_purpose"]
+  # cancer_text_terms: defaults in src/trialsight/config.py (DEFAULT_CANCER_TERMS)
+
+paths:
+  raw_dir: "data/raw"
+  db_path: "data/processed/trialsight.duckdb"
+  processed_dir: "data/processed"
+  api_snapshot_dir: "docs/api_snapshot"
+  # Development builds (e.g. one-page samples) never write to the research paths above.
+  dev_db_path: "data/processed_dev/trialsight_dev.duckdb"
+  dev_processed_dir: "data/processed_dev"
+  artifacts_dir: "artifacts"            # EDA + model outputs from the accepted research build
+  dev_artifacts_dir: "artifacts_dev"    # outputs from development builds (labelled, never published)
+
+modeling:
+  seed: 20261012
+  test_fraction: 0.25        # latest 25% of the cohort by start date is the temporal hold-out
+  cv_folds: 5
+  n_bootstrap: 1000
+  permutation_repeats: 10
+  min_events_train: 50       # minimum terminated AND completed studies required in train
+  min_events_test: 30        # ... and in test, for meaningful evaluation
